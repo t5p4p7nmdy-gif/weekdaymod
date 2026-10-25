@@ -1,0 +1,25 @@
+modLoader = "javafml"
+loaderVersion = "[47,)"
+license = "MIT"
+
+[[mods]]
+modId = "weekdaymod"
+version = "1.0.0"
+displayName = "Weekday Mod"
+description = '''
+Adds the /weekday command, which announces the current day of the week in English.
+'''
+
+[[dependencies.weekdaymod]]
+modId = "forge"
+mandatory = true
+versionRange = "[47,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.weekdaymod]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20.1,1.21)"
+ordering = "NONE"
+side = "BOTH"
